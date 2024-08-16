@@ -9,7 +9,7 @@ function App() {
       description: "Join to stay up to date w/ what's happening at the RegenHub",
     },
     {
-      url: "https://rates.regenhub.xyz",
+      url: "https://pricing.regenhub.xyz",
       title: "Membership Rates",
       description: "Get an idea of how much it costs to work out of the space",
     },
@@ -34,7 +34,7 @@ function App() {
       description: "Have an event you'd like to lead at the RegenHub? Submit it here.",
     },
     {
-      url: "https://donate.regenhub.xyz",
+      url: "https://www.thanks.page/ct/regenhub-demonstration",
       title: "Donate/Mint NFT",
       description: "Help support the space by donating or minting an NFT",
     },
@@ -42,7 +42,7 @@ function App() {
   return (
     <div className="App">
       <header className="">
-        <h1 className="tc pb5">RegenHub.xyz</h1>
+        <h1 className="tc white pb5">RegenHub.xyz</h1>
       </header>
       <article>
         {links.map((link, index) => (

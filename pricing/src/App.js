@@ -22,7 +22,9 @@ function App() {
   return (
     <div className="App">
       <header className="">
-        <h1 className="tc pb5">RegenHub.xyz</h1>
+        <a href="https://www.regenhub.xyz">
+          <h1 className="tc white pb5">RegenHub.xyz</h1>
+        </a>
       </header>
       <article>
         {links.map((link, index) => (
