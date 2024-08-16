@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+button {
+  width: 50%;
+  padding: 10px;
+  margin: 5px 0;
+  color: white;
+  background-color: #37caf7;
+  border: none;
+  border-radius: 5px;
+}
+
+body {
+  background-color: #0014f3; /* Fallback color */
+  background-image: -webkit-linear-gradient(to bottom right, #0014f3, #004b84);
+  background-image: linear-gradient(to bottom right, #0014f3, #004b84);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
