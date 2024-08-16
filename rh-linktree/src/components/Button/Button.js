@@ -10,7 +10,7 @@ const Button = ({ url, title, description }) => {
       >
         <button className="black">{title}</button>
       </a>
-      <p className="w-50 flex flex-col center">{description}</p>
+      <p className="w-50 flex flex-col center f4">{description}</p>
     </div>
   );
 };
